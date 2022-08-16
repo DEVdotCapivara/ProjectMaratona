@@ -58,9 +58,8 @@ li .details {
 
 .logo {
   display: flex;
-  align-items: center ;
+  align-items: left ;
   justify-content: center;
-  ;
 /* Display e justify-content: center para alinhar o texto ao centro da página*/
 }
 
