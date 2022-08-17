@@ -15,9 +15,7 @@ body{
 
 nav ul {
 
-    font-family: Alumni Sans Pinstripe, sans-serif;
-
-    font-size: medium;
+    font-family: 'Kanit', sans-serif;
 
     list-style: none;
 
@@ -91,4 +89,12 @@ li .details {
 
 span {
   color: #000000;
+}
+
+nav a {
+
+  color: black;
+  text-decoration: none;
+  
+
 }
