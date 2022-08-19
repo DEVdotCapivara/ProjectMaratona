@@ -38,8 +38,13 @@ ul {
 }
 
 header {
-  padding-top: 1.0px;
   text-align: center;
+  box-sizing: border-box;
+  padding: 1.0px;
+  background-color: rgba(255, 255, 255, 0.744);
+  max-width: 309px;
+  margin: 0 auto;
+  padding-top: 35px;
 }
 
 .bg {
@@ -49,7 +54,7 @@ header {
   max-width: 309px;
   margin: 0 auto;
 }
-header,
+
 section {
   box-sizing: border-box;
   padding: 1.0px;
