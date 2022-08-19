@@ -8,14 +8,14 @@ html {
 }
 body{
   background-image: url(https://img.freepik.com/premium-vector/bubble-tea-seamless-pattern-taiwanese-boba-with-tapioca-balls-pearl-milk-tea-asian-popular-cold-drink-creative-design-textile-wrapping-paper-wallpaper-vector-texture-isolated-white-background_176411-2059.jpg?w=2000); /*0-F */
-  font-family: Pacifico, sans-serif;
+font-family: 'Special Elite', cursive;
 
 
 }
 
 nav ul {
 
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Special Elite', cursive;
 
     list-style: none;
 
@@ -24,7 +24,7 @@ nav ul {
     gap: 2rem;
 
     position: fixed;
-    background-color: white;
+    background: linear-gradient(74deg, yellow 1%, orange 99%);
     height: 2rem;
     width: 100%;
 
