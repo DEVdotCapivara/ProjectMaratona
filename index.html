@@ -1,106 +1,168 @@
-* {
-  margin: 0; /*espaço*/
-  padding: 0; /*preenchimento*/
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
 
-html {
-  scroll-behavior: smooth;
-}
-body{
-  background-image: url(https://img.freepik.com/premium-vector/bubble-tea-seamless-pattern-taiwanese-boba-with-tapioca-balls-pearl-milk-tea-asian-popular-cold-drink-creative-design-textile-wrapping-paper-wallpaper-vector-texture-isolated-white-background_176411-2059.jpg?w=2000); /*0-F */
-  font-family: Pacifico, sans-serif;
+<link rel="stylesheet" href="style.css">
 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
 
-}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+  </head>
+  <body>
+    <nav class="navegacao">
+        <ul>
+            <li><a href="#cha">Chá</a></li>
+            <li><a href="#bubble">Bubble</a></li>
+            <li><a href="#salgados">Salgados</a></li>
+            <li><a href="#doces">Doces</a></li>
+        </ul>
+    </nav>
+    <header>
+      <h1>Me<span>nu</span></h1>
+      <p>Aberto de Terça à Sábado das 10:00 às 20:00</p>
+    </header>
+   <main>
+     <section class="bg">
+    <section id="cha"> 
+      <!-- Semântica de main: Informar o conteúdo do código -->
+      <h2>Chá</h2>
+      <ul>
+        <li>
+          <div class="details">
+            <h3>Strawberry fire</h3>
+            <p class="description">Morango com Lichia</p>
+          </div>
+          <strong class="price">
+            R$ 8,99
+          </strong>
+        </li>
+        <Li>
+          <div class="details">
+            <h3>Violet Forrest</h3>
+            <p class="description">Lichia com Mirtilo.</p>
+          </div>
+          <strong class="price">
+            R$10,99
+          </strong>
+        </Li>
+        <li>
+          <div class="details">
+            <h3>Life green</h3>
+            <p class="description">Limão com hortelã</p>
+          </div>
+          <strong class="price">
+            R$6,99
+          </strong>
+        </li>
+      </ul>
+    </section>
+        <section id="bubble">
+      <h2>Bubble</h2>
+      <ul>
+        <li>
+          <div class="details">
+            <h3>Tapioca</h3>
+            <p class="description">Bolinhas de tapioca comestíveis</p>
+          </div>
+          <strong class="price">
+            R$ 7,99
+          </Strong>
+        </li>
+        <Li>
+          <div class="details">
+            <h3>Bubble</h3>
+            <p class="description">Estouram na boca.</p>
+          </div>
+          <strong class="price">
+            R$3,99
+          </strong>
+        </Li>
+        <li>
+          <div class="details">
+            <h3>Natural bubble</h3>
+            <p class="description">São bubbles, só que de polpas de frutas.</p>
+          </div>
+          <strong class="price">
+            R$6,99
+          </strong>
+        </li>
+      </ul>
+    </section>
+        <section id="salgados">
+            <h2>Salgados</h2>
+      <ul>
+        <li>
+          <div class="details">
+            <h3>Tapioca</h3>
+            <p class="description">Com queijo e tomate</p>
+          </div>
+          <Strong class="price">
+            R$ 7,99
+          </Strong>
+        </li>
+        <Li>
+          <div class="details">
+            <h3>Empada</h3>
+            <p class="description">Frango ou Catupiry.</p>
+          </div>
+          <strong class="price">
+            R$3,99
+          </strong>
+        </Li>
+        <li>
+          <div class="details">
+            <h3>Coxinha</h3>
+            <p class="description">De batata.</p>
+          </div>
+          <strong class="price">
+            R$6,99
+          </strong>
+        </li>
+      </ul>
+        </section>
+        <section id="doces">
+            <h2>Doces</h2>
+      <ul>
+        <li>
+          <div class="details">
+            <h3>Donut</h3>
+            <p class="description">Tradicional ou chocolate amargo</p>
+          </div>
+          <Strong class="price">
+            R$ 7,99
+          </Strong>
+        </li>
+        <Li>
+          <div class="details">
+            <h3>Cupcake</h3>
+            <p class="description">Red velvet ou tradicional.</p>
+          </div>
+          <strong class="price">
+            R$3,99
+          </strong>
+        </Li>
+        <li>
+          <div class="details">
+            <h3>Banoffe</h3>
+            <p class="description">Torta de banana com doce de leite e canela.</p>
+          </div>
+          <strong class="price">
+            R$6,99
+          </strong>
+        </li>
+      </ul>
+        </section>
+   </section> 
+<figure class="logo">
+  <img src="https://i.pinimg.com/564x/f8/5f/05/f85f05b840d7eb101a8a7044dd67786b.jpg" alt="logo" >
+</figure>
+</main>
 
-nav ul {
-
-    font-family: 'Kanit', sans-serif;
-
-    list-style: none;
-
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-
-    position: fixed;
-    background-color: white;
-    height: 2rem;
-    width: 100%;
-
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+<!--https://chimerical-yeot-88c062.netlify.app/-->
     
-    justify-content: center;
-}
-
-ul {
-  list-style: none;
-}
-
-header {
-  text-align: center;
-  box-sizing: border-box;
-  padding: 1.0px;
-  background-color: rgba(255, 255, 255, 0.744);
-  max-width: 309px;
-  margin: 0 auto;
-  padding-top: 35px;
-}
-
-.bg {
-  box-sizing: border-box;
-  padding: 1.0px;
-  background-color: rgba(255, 255, 255, 0.844);
-  max-width: 309px;
-  margin: 0 auto;
-}
-
-section {
-  box-sizing: border-box;
-  padding: 1.0px;
-  background-color: rgba(255, 255, 255, 0.744);
-  max-width: 309px;
-  margin: 0 auto;
-}
-
-header h1 span {
-  color:#995000 #995000;
-}
-
-section h2 {
-  background-color: #adfeff;
-  padding: 8px 16px;
-  text-align: center;
-
-  margin-bottom: 24px;
-}
-
-ul li {
-  margin-top: 16px;
-  display: flex;
-  justify-content: space-between;
-}
-
-li .details {
-  max-width: 240px;
-}
-
-.logo {
-  display: flex;
-  align-items: left ;
-  justify-content: left;
-/* Display e justify-content: center para alinhar o texto ao centro da página*/
-}
-
-span {
-  color: #000000;
-}
-
-nav a {
-
-  color: black;
-  text-decoration: none;
-  
-
-}
-
+  </body>
+</html>
