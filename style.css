@@ -114,6 +114,7 @@ nav a {
   height: 270px;
   position: absolute;
   border-radius: 0px 20px 20px 20px;
+  object-fit: fill;
 
   animation-name: animacao;
   animation-duration: 20s;
