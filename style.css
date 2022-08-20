@@ -106,7 +106,7 @@ nav a {
   height: 270px;
   position: relative;
   overflow: hidden;
-  object-fit: fill;
+  object-fit: none;
 }
 
 .foto {
@@ -114,7 +114,6 @@ nav a {
   height: 270px;
   position: absolute;
   border-radius: 0px 20px 20px 20px;
-  object-fit: fill;
 
   animation-name: animacao;
   animation-duration: 20s;
@@ -127,22 +126,17 @@ nav a {
 
   25%{
     opacity: 1;
-    transform: scale(1.1,1.1);
+    transform: scale(1.1,1,1);
     
   }
-
-  50%{
-    opacity: 0;
 }
 
 .foto:nth-child(1){
-
+  
 }
-
 .foto:nth-child(2){
   animation-delay: 5s;
 }
-
 .foto:nth-child(3){
   animation-delay: 10s;
 }
