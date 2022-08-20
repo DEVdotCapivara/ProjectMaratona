@@ -136,8 +136,8 @@ nav a {
     
   }
 
-  50%{
-    opacity: 2;
+  25%{
+    opacity: 0;
   }
 }
 
