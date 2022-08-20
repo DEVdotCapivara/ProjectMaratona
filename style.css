@@ -106,7 +106,7 @@ nav a {
   height: 270px;
   position: relative;
   overflow: hidden;
-  object-fit: cover;
+  object-fit: none;
 }
 
 .foto {
@@ -114,14 +114,15 @@ nav a {
   height: 270px;
   position: absolute;
   border-radius: 0px 20px 20px 20px;
+
   animation-name: animacao;
-  animation-duration: 15s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
   
   
 }
 
-@keyframes animacao{
+@keyframes animacao {
 
   25%{
     opacity: 1;
@@ -133,14 +134,18 @@ nav a {
     opacity: 0;
     
   }
+
+  50%{
+    opacity: 2;
+  }
 }
 
 .foto:nth-child(1){
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 .foto:nth-child(2){
-  animation-delay: 10s;
+  animation-delay: 6s;
 }
 .foto:nth-child(3){
-  animation-delay: 15s;
+  animation-delay: 9s;
 }
