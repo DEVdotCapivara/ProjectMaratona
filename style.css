@@ -117,7 +117,7 @@ nav a {
   object-fit: fill;
 
   animation-name: animacao;
-  animation-duration: 60s;
+  animation-duration: 20s;
   animation-iteration-count: infinite;
   
   
@@ -138,9 +138,11 @@ nav a {
 .foto:nth-child(1){
 
 }
+
 .foto:nth-child(2){
   animation-delay: 5s;
 }
+
 .foto:nth-child(3){
   animation-delay: 10s;
 }
