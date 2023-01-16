@@ -105,3 +105,8 @@ nav a {
   overflow: hidden;
   object-fit: none;
 }
+
+.contato {
+  text-decoration: none;
+  color: black;
+}
