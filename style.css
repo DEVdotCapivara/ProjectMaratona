@@ -79,8 +79,6 @@ ul li {
   margin-top: 16px;
   display: flex;
   justify-content: space-between;
-  text-decoration: none;
-  color: black;
 }
 
 li .details {
@@ -106,4 +104,9 @@ nav a {
   position: static;
   overflow: hidden;
   object-fit: none;
+}
+
+.contato h2 ul li{
+  text-decoration: none;
+  color: black;
 }
