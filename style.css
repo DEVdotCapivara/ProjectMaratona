@@ -106,7 +106,7 @@ nav a {
   object-fit: none;
 }
 
-.contato {
+.contato ul li{
   text-decoration: none;
   color: black;
 }
